@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(205, 147, 224);
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titulo{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+.container{
+    background-color: rgb(220, 202, 236);
+    padding: 35px;
+    align-content: center;
+    border-radius: 35%;
+}
+
+.listas{
+    text-align: left;
+}
+
+.imagen{
+    width: 40%;
+    height: 40%;
+    border-radius: 15%; 
+    align-items: center; 
+}
+
+.imagenN{
+    width: 30%;
+    height: 30%;
+    border-radius: 15%; 
+}
+
+.imagen34{
+    width: 25%;
+    height: 25%;
+    border-radius: 15%; 
+}
+
+p{
+    font-family: Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.pp{
+    text-align: center;
+}
+
+label{
+    text-align:left;
+}
+
+.hh3{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.foot{
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    
+}

@@ -1,0 +1,152 @@
+<!--Doctype le dice al navegador que este archivo es tipo html-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Titulos-->
+    <title>My Web :) </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Dentro de mi body vamos a poner lo que el usuario ve-->
+
+<body>
+    <h1 class="titulo">Hola Tecnolochicas</h1>
+    <h2>Me llamo Aislinn Moncada :) </h2>
+    <h3>Tengo 22 años</h3>
+    <h4>Amo los michis</h4>
+    <h5>My Web</h5>
+
+    <p class="pp">Los gatitos son hermosos aunque no crean que siempre son independientes :D</p>
+
+    <h1 class="titulo">Web Gatuna</h1>
+    <main>
+        <h2>Imágenes de gatos</h2>
+        <!--Atributos son src (SOURCE())-->
+        <img class="imagen" src="img/cat1.jpg" alt="gatito">
+        <img class="imagenN" src="img/catn.jpg" alt="gato con botas">
+
+        <!--Listas-->
+        <h3 class="hh3">Los gatos son una excelente mascota que puedes tener y que forme parte de tu familia.</h3>
+        <div>
+            <p>Los gatos son criaturas indiferentes y poco cariñosas, que ronronean por tu casa, maúllan y
+                organizan peleas nocturnas en los techos.
+                Además, trepan tus muebles, dejan pelos a su paso, arañan lo que encuentran y marcan su territorio con
+                un tufo difícil de ignorar tienen no una sino tres fechas al año que celebran su existencia.</p>
+            <!--Lista no ordenada (ul) = unordered list-->
+            <p> <strong> Datos curiosos sobre los gatos </strong></p>
+            <ul class="container listas">
+                <li>Pueden llegar a vivir 21 años.</li>
+                <li>Duermen entre 13 y 14 horas al día (quién como ellos).</li><!--Item de la lista-->
+                <li>Sus bigotes, llamados vibrisas, son amplificadores de sus sentidos, ya que les permiten detectar
+                    vibraciones, corrientes de aire y movimientos a distancia.</li>
+            </ul>
+
+            <img class="imagen34" src="img/cat3.jpg" alt="">
+
+            <p> <strong> Cosas que odian los michis :/ </strong></p>
+            <!--Lista ordenada (ol) = ordered list-->
+            <ol class="container listas">
+                <li>Que les rasquen la panza (ciertos gatos)</li>
+                <li>Los cítricos</li>
+                <li>Otros gatos</li>
+            </ol>
+
+            <img class="imagen34" src="img/cat4.jpg" alt="">
+        </div>
+        
+        <br>
+        <div>
+            <a href="#parrafo-1">5 Datos súper lindos y curiosos de los gatos.</a> <br>
+            <a href="#parrafo-2">Estas son las razones por las que los gatos se lamen su pelaje.</a> <br>
+            <a href="#parrafo-3">¿Por qué los gatos aman las cajas?</a>
+
+            <h3 id="parrafo-1" class="hh3"> 5 Datos súper lindos y curiosos de los gatos</h3>
+            <ul class="container listas">
+                <li>Cuando tu gatito se frota en tus piernas, está compartiendo su linda energía contigo.</li>
+                <li>Los gatitos sienten la energía del lugar en el que se encuentran y la purifican. 3. Los gatos negros
+                    protegen tu casa de las malas energías.</li>
+                <li>Los gatitos amarillos atraen la abundancia y la buena suerte.</li>
+                <li>Los mininos grises atraen el amor y la armonía.</li>
+                <li>Los gatitos rayados traen la buena suerte y la felicidad.</li>
+            </ul>
+
+            <h3 id="parrafo-2" class="hh3">Estas son las razones por las que los gatos se lamen su pelaje.</h3>
+            <p>La lengua de los gatos contiene 300 papilas pequeñas, huecas y rígidas en forma de cuchara que les
+                permiten
+                mojar con
+                saliva la base de su pelaje. Esto lo observaron investigadores estadounidenses con la ayuda de cámaras
+                de
+                alta
+                resolución. <br>Los gatos se lamen para darle mantenimiento a su pelaje para evitar nudos. Además,
+                eliminan
+                la
+                suciedad y las pulgas. Ya que, la saliva también tiene un poder limpiador.</p>
+
+            <h3 id="parrafo-3" class="hh3">¿Por qué los gatos aman las cajas?</h3>
+            <p>La búsqueda de espacios confinados es un comportamiento instintivo de los gatos. En la naturaleza, estas
+                áreas permiten
+                que los animales se oculten de los depredadores y también desde ahí escrupulosamente pueden acechar a
+                sus
+                presas. <br>
+                Cuando un gato está dentro de una caja, siente que no puede ser atacado, y cualquier cosa que se acerque
+                estará
+                directamente en su campo de visión. Y en efecto, tales espacios de escondite les permiten ver el mundo a
+                su
+                alrededor
+                sin ser vistos.</p>
+
+        </div>
+
+
+
+        <p>En este link <a href="https://wakyma.com/blog/lo-debes-saber-antes-de-tener-un-gato/">encontrarás mas información sobre michis </a> .</p>
+
+        <h3 class="hh3">Qué tipo de gatito es?</h3>
+        <!--Formulario con radio-->
+        <p class="pp">¿Tu gatito es minino o adulto?</p>
+        <!--Opción minino-->
+        <label for="cachorro">
+            <input id="cachorro" type="radio" value="cachorro" name="edad">
+            Minino
+        </label>
+        <!--Opción adulta-->
+        <label for="adulto">
+            <input id="adulto" type="radio" value="adulto" name="edad">
+            Adulto
+        </label>
+
+        <!--Formulario con checkbox-->
+        <p class=pp>Qué tipo de gato es el tuyo?</p>
+        <label for="cariñoso">
+            <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad">
+            Cariñoso
+        </label>
+
+        <label for="enojon">
+            <input id="enojon" type="checkbox" value="enojon" name="personalidad">
+            Enojón
+        </label>
+
+        <label for="perezoso">
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">
+            Perezoso
+        </label>
+
+        <label for="jugueton">
+            <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">
+            Juguetón
+        </label>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p class="foot"> Página creada por Aislinn en
+            <a href="https://Tecnolochicas.mx/">
+            Tecnolochicas Pro </a> 
+            </p>
+    </footer>
+</body>
+
+</html>
